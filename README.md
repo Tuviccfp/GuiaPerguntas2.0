@@ -19,9 +19,10 @@
 
 <h6>Rodando em sua máquina.</h6>
 <p>Para rodar o projeto na sua máquina, basta abrir o cmd do seu computador e colocar a seguinte linha no console.</p>
+
 <div border="1px solid black">
   git clone https://github.com/Tuviccfp/GuiaPerguntas2.0-front
-</div>
+</div> </br>
 
 <p>Ao realizar esse comando, basta abrir o CMD novamente na pasta local que você clonou o repositório e dar um </p>
 
