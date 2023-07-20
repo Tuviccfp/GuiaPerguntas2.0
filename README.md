@@ -31,6 +31,9 @@
   yarn start
 </div>  
 
+<h2>Sumário:</h2>
+<p>Server: https://github.com/Tuviccfp/GuiaPerguntas2.0-back/tree/main</p>
+
 <h2>Descrição:</h2>
 <p>Aplicação proposta como atividade de um curso, a aplicação tem como finalidade por em prática conceitos de back-end e front-end (servidor e cliente).</p>
 <p>A aplicação faz comunicação com o servidor atráves de uma API, essa API é responsável por salvar os dados passados pelo cliente ao servidor e exibir os mesmos dados na tela.</p>
