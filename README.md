@@ -1,4 +1,5 @@
-<h2>Introdução ao projeto.</h4>
+<div align="center">
+  <h2>Introdução ao projeto.</h4>
 
 <h3>Aplicação de perguntas e respostas.</h3>
 
@@ -18,10 +19,11 @@
 
 <h6>Rodando em sua máquina.</h6>
 <p>Para rodar o projeto na sua máquina, basta abrir o cmd do seu computador e colocar a seguinte linha no console.</p>
-<div style="border: '1px solid black'">
+<div border="1px solid black">
   git clone https://github.com/Tuviccfp/GuiaPerguntas2.0-front
 </div>
 <p>Ao realizar esse comando, basta abrir o CMD novamente na pasta local que você clonou o repositório e dar um </p>
-<div style="border: '1px solid black'">
+<div border="1px solid black">
   yarn start
+</div>  
 </div>
