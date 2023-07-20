@@ -22,8 +22,9 @@
 
 <div border="1px solid black">
   git clone https://github.com/Tuviccfp/GuiaPerguntas2.0-front
-</div> </br>
+</div>
 
+<br/>
 <p>Ao realizar esse comando, basta abrir o CMD novamente na pasta local que você clonou o repositório e dar um </p>
 
 <div border="1px solid black">
