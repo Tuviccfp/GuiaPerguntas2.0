@@ -1,4 +1,4 @@
-<div align="center">
+
   <h2>Introdução ao projeto.</h4>
 
 <h3>Aplicação de perguntas e respostas.</h3>
@@ -22,8 +22,13 @@
 <div border="1px solid black">
   git clone https://github.com/Tuviccfp/GuiaPerguntas2.0-front
 </div>
+
 <p>Ao realizar esse comando, basta abrir o CMD novamente na pasta local que você clonou o repositório e dar um </p>
+
 <div border="1px solid black">
   yarn start
 </div>  
-</div>
+
+<h2>Descrição:</h2>
+<p>Aplicação proposta como atividade de um curso, a aplicação tem como finalidade por em prática conceitos de back-end e front-end (servidor e cliente).</p>
+<p>A aplicação faz comunicação com o servidor atráves de uma API, essa API é responsável por salvar os dados passados pelo cliente ao servidor e exibir os mesmos dados na tela.</p>
