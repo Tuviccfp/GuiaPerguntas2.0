@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+import styled from 'styled-components'
+import Ask from './components/Ask/Ask';
+import FormAsk from './components/Ask/FormAsk/FormAsk';
+import ButtonDefault from './components/shared/Button';
+
+const Container = styled.div`
+display: flex;
+height: 100vh;
+align-items: center;
+flex-direction: column;
+`
 
 function App() {
+  const [model, setModel] = useState<boolean>(false)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <h4 style={{marginTop: '15px'}}>Perguntas & Respostas</h4>
+      <ButtonDefault onClick={() => setModel(!model)} text='Criar nova pergunta' style={{width: '150px', height: '40px', marginBottom: '10px'}} />
+      {model && <FormAsk />}
+      <Ask />
+    </Container>
   );
 }
 
