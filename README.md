@@ -21,7 +21,7 @@
 <p>Para rodar o projeto na sua máquina, basta abrir o cmd do seu computador e colocar a seguinte linha no console.</p>
 
 <div align="center">
-  git clone https://github.com/Tuviccfp/GuiaPerguntas2.0-front
+  git clone https://github.com/Tuviccfp/GuiaPerguntas2.0-front.git
 </div>
 
 <br/>
