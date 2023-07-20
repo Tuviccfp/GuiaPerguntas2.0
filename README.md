@@ -1,5 +1,5 @@
 
-  <h2>Introdução ao projeto.</h4>
+  <h2 align="center">Introdução ao projeto.</h4>
 
 <h3>Aplicação de perguntas e respostas.</h3>
 
